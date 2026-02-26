@@ -1,45 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Sandro's Web Page</title>
-  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<body style="background-color: powderblue;">
+<body style="background-color:powderblue;">
 
-<header>
-  <!-- Top Bar -->
-  <div class="topbar">
-      <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+
+<header class="navbar">
+  
+  <div class="logo">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM6ZI48oqZNxusiEzG7CzV4hUmPOgUgXxsVw&s" alt="Tesla Logo" width="50" height="50">
   </div>
 
-  <!-- Dropdown Navigation -->
-  <nav id="dropdownMenu" class="dropdown-menu">
-      <a href="#">Home</a>
-      <a href="#">Vehicles</a>
-      <a href="#">Charging</a>
-      <a href="#">Shop</a>
-      <a href="https://www.tesla.com/en_nz">Tesla Official Website</a>
-      <a href="SandroGallaryPage.html">Gallery Page</a>
+  <nav class="nav-links">
+    <a href="#" class="active">Home</a>
+  
+    <a href="https://www.tesla.com/en_nz" target="_blank">Tesla</a>
+    
+    <a href="SandroGallaryPage.html">Gallery</a>
   </nav>
+
 </header>
 
 <main>
 
   <section>
-
-    <header>
     <h1>Hello!</h1>
     <h1>Welcome to Sandro's Tesla Webpage</h1>
-    </header>
 
-    <main>
-      <p>
-       On this website, you will have the ability to explore various types of electric cars from some of the most innovative manufacturers in the automotive industry. You can discover detailed information about different models, including their performance capabilities, driving range, battery efficiency, charging options, interior features, and advanced technology systems. The website also provides insights into safety features, autonomous driving developments, sustainability benefits, and overall cost of ownership.
-       In addition, you will be able to compare different electric vehicles side by side, helping you understand their strengths and differences more clearly. Whether you are interested in compact city cars, family SUVs, or high-performance electric trucks, this platform offers useful information to support your decision-making process. By exploring the latest advancements in electric mobility, you can gain a deeper understanding of how electric vehicles are shaping the future of transportation and contributing to a more sustainable world.
-      </p>
-    </main>
-  
+    <p>
+      On this website, you will have the ability to explore various types of electric cars from some of the most innovative manufacturers in the automotive industry. You can discover detailed information about different models, including their performance capabilities, driving range, battery efficiency, charging options, interior features, and advanced technology systems.
+    </p>
   </section>
 
   <section>
@@ -62,27 +57,16 @@
 
   <section>
     <h2>Vehicle Gallery</h2>
-    <img src="https://www.shop4tesla.com/cdn/shop/articles/neue-tesla-model-y-variante-und-preiserhohung-long-range-und-performance-941778.jpg?v=1712842777" alt="Tesla Model 3" width="400" height="200">
-    <img src="https://media.drive.com.au/obj/tx_q:50,rs:auto:1920:1080:1/driveau/upload/cms/uploads/ae8db836-3975-55ac-8854-44dc4ed50000" alt="Tesla Model Y" width="400" height="200">
-    <img src="https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1771604806/autoexpress/2026/02/Tesla%20Cybertruck%20entry-level%20-%20front%203_4_snpdlf.jpg" alt="Tesla CyberTruck" width="400" height="200">
+    <img src="https://www.shop4tesla.com/cdn/shop/articles/neue-tesla-model-y-variante-und-preiserhohung-long-range-und-performance-941778.jpg?v=1712842777" alt="Tesla Model 3" width="300" height="200">
+    <img src="https://media.drive.com.au/obj/tx_q:50,rs:auto:1920:1080:1/driveau/upload/cms/uploads/ae8db836-3975-55ac-8854-44dc4ed50000" alt="Tesla Model Y" width="300" height="200">
+    <img src="https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1771604806/autoexpress/2026/02/Tesla%20Cybertruck%20entry-level%20-%20front%203_4_snpdlf.jpg" alt="Tesla CyberTruck" width="300" height="200">
   </section>
 
 </main>
 
 <footer>
-  <p>&copy; 2026 Sandro's Tesla Webpage | Educational Project</p>
+  <p>&copy; 2026 Sandro's Tesla Webpage | 11DTEC Project</p>
 </footer>
-
-<script>
-function toggleMenu() {
-    var menu = document.getElementById("dropdownMenu");
-    if (menu.style.maxHeight) {
-        menu.style.maxHeight = null;
-    } else {
-        menu.style.maxHeight = "300px";
-    }
-}
-</script>
 
 </body>
 </html>

@@ -1,0 +1,29 @@
+.navbar {
+  list-style: none;
+  display: flex;
+  background-color: #df1c1cd2; /* dark background */
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  transition: color 0.3s;
+}
+
+/* Highlighted link */
+.navbar li a.active {
+  color: rgb(255, 255, 255); /* highlight color */
+}
+
+/* Hover effect on links */
+.navbar li a:hover {
+  color: rgb(255, 255, 255);
+}
